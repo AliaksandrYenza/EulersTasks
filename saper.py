@@ -15,11 +15,6 @@ def step():
 
 def printArr(arr2):
     #frame
-    for i in range (size+1):
-        print(i, "-")
-
-
-
     for i in range(size):
         for j in range(size):
             print(arr2[i][j]," ", end='')
